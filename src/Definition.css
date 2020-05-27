@@ -1,0 +1,79 @@
+p {
+  text-align: left;
+  margin: 0px 0px 5px 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+.word-search-key {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0a7be9;
+  position: relative;
+  float: left;
+  top: 12px;
+}
+
+.phon {
+  font-family: "Lucida Sans Unicode", "Lucida Grande";
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #333333;
+  position: relative;
+  float: left;
+  top: 15px;
+  margin-left: 5px;
+}
+
+.sound {
+  line-height: 20px;
+  float: left;
+}
+
+.word-type {
+  font-weight: bold;
+  color: black;
+  background: rgba(231, 229, 229, 0.733);
+  background-size: 30px 10px;
+  font-size: 17px;
+  padding: 5px;
+  float: left;
+}
+
+.word-meaning {
+  align-content: left;
+  color: black;
+  font-weight: bold;
+}
+
+.word-meaning p {
+  margin-left: 10px;
+}
+
+.word-meaning p::before {
+  display: inline-block;
+  content: "";
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: pink;
+}
+
+.word-sentence {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.word-sentence p:first-child {
+  color: green;
+}
+
+article {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 10px;
+}

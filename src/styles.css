@@ -1,0 +1,92 @@
+.App {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  opacity: 0.8;
+  background-color: #ccc;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#dictionary {
+  margin: auto;
+  width: 600px;
+  padding: 5px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.card {
+  width: 600px;
+  min-height: 100%;
+  padding: 5px;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  #dictionary {
+    width: 320px;
+  }
+
+  .card {
+    width: 320px;
+  }
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  #dictionary {
+    width: 480px;
+  }
+
+  .card {
+    width: 480px;
+  }
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  #dictionary {
+    width: 640px;
+  }
+
+  .card {
+    width: 640px;
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #dictionary {
+    width: 960px;
+  }
+
+  .card {
+    width: 960px;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  #dictionary {
+    width: 1020px;
+  }
+
+  .card {
+    width: 1020px;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  #dictionary {
+    width: 1280px;
+  }
+
+  .card {
+    width: 1280px;
+  }
+}

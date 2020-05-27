@@ -1,2 +1,0 @@
-# Dictionary
-Created with CodeSandbox
